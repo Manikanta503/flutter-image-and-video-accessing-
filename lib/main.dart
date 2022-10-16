@@ -95,14 +95,14 @@ class _PickImageVideoState extends State<PickImageVideo> {
               onPressed: () {
                 pickImageFromGallery();
               },
-              child: Text('FROM GALLERY'),
+              child: Text('FROM CAMERA'),
             ),
             MaterialButton(
               color: Colors.blue,
               onPressed: () {
                 pickImageFromCamera();
               },
-              child: Text('FROM CAMERA'),
+              child: Text('FROM GALLERY'),
             ),
             MaterialButton(
               color: Colors.blue,
